@@ -73,7 +73,7 @@
      </div>
   </section>
 
-  <section class="contact" id="contact">
+  <!-- <section class="contact" id="contact">
     <h2>Contact Me</h2>
     <form>
       <input type="text" placeholder="Your Name" required>
@@ -81,7 +81,25 @@
       <textarea rows="5" placeholder="Your Message"></textarea>
       <button type="submit">Send Message</button>
     </form>
-  </section>
+  </section> -->
+
+  <!-- Contact -->
+<section class="contact" id="contact">
+  <h2>Contact Me</h2>
+  <form action="https://formsubmit.co/yemetee.kudasaiii@gmail.com" method="POST">
+    
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    
+    <!-- Optional hidden fields -->
+    <input type="hidden" name="_captcha" value="false"> <!-- disables captcha -->
+    <input type="hidden" name="_subject" value="New Portfolio Contact!"> <!-- email subject -->
+    <input type="hidden" name="_template" value="table"> <!-- makes email prettier -->
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
 
   <section class="social-links">
     <a href="https://www.linkedin.com/in/shakibul-islam-256515336" target="_blank" class="linkedin">
